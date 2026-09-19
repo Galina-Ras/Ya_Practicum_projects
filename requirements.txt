@@ -1,0 +1,11 @@
+pandas>=2.0
+numpy
+matplotlib
+seaborn
+plotly
+folium
+scipy
+scikit-learn
+sqlalchemy
+jupyter
+openpyxl

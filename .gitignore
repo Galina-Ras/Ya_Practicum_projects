@@ -1,0 +1,16 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NPS raw extract is ~63 MB — too heavy for GitHub
+03-nps-telecom/data/telecomm_csi.csv
+03-nps-telecom/data/telecomm_csi_tableau.csv
+03-nps-telecom/data/*.db
