@@ -1,39 +1,41 @@
-# Портфолио аналитика данных — Галина Рассказова
+# Портфолио аналитика данных
 
-Проекты курса «Аналитик данных» Яндекс Практикума. Тетрадки подготовлены для GitHub: пути к данным локальные, служебные комментарии ревьюера убраны, тяжёлые выводы карт/Plotly сокращены, чтобы репозиторий можно было клонировать и запускать.
+**Галина Рассказова** · Москва  
+[GitHub](https://github.com/Galina-Ras) · [Telegram](https://t.me/GalyaRas) · [yabooger@yandex.ru](mailto:yabooger@yandex.ru)  
+Резюме: [PDF](resume/Rasskazova_Galina.pdf)
 
-**Контакты:** [yabooger@yandex.ru](mailto:yabooger@yandex.ru) · Telegram [@GalyaRas](https://t.me/GalyaRas) · Москва
-
-Резюме: [`resume/Rasskazova_Galina.pdf`](resume/Rasskazova_Galina.pdf)
+Проекты курса «Аналитик данных» Яндекс Практикума: от предобработки и EDA до SQL, Tableau, A/B-тестов и базового ML.
 
 ## Стек
 
-Python (pandas, NumPy, matplotlib, seaborn, Plotly, SciPy, scikit-learn), SQL, Tableau, Jupyter, статистические тесты, A/B, когортный анализ, RFM, базовый ML.
+`Python` `pandas` `NumPy` `matplotlib` `seaborn` `Plotly` `SciPy` `scikit-learn`  
+`SQL` `Tableau` `Jupyter` `A/B-тесты` `когортный анализ` `RFM`
 
 ## Проекты
 
-| # | Проект | Что сделано | Папка |
-|---|--------|-------------|-------|
-| 1 | [Рынок общепита Москвы](01-moscow-cafes) | EDA, карты, рекомендация по открытию кофейни | `01-moscow-cafes` |
-| 2 | [TED Talks](02-ted-talks) | Дашборд Tableau: история, темы, авторы | `02-ted-talks` |
-| 3 | [NPS телекома](03-nps-telecom) | SQL-витрина + дашборд NPS | `03-nps-telecom` |
-| 4 | [Procrastinate Pro+](04-procrastinate) | LTV, CAC, ROI, удержание, каналы | `04-procrastinate` |
-| 5 | [GoFast](05-gofast-scooters) | Статистика, выручка, проверка гипотез | `05-gofast-scooters` |
-| 6 | [A/B-тест интернет-магазина](06-ab-test) | ICE/RICE и анализ A/B | `06-ab-test` |
-| 7 | [Отток фитнес-клуба](07-gym-churn) | Логрег vs случайный лес, кластеры | `07-gym-churn` |
-| 8 | [Стримчик](08-games-streamchik) | Рынок игр, портреты регионов, гипотезы | `08-games-streamchik` |
-| 9 | [E-commerce](09-ecommerce) | Ассортимент, RFM, кластеризация | `09-ecommerce` |
+| | Проект | Задача | Результат |
+|---|--------|--------|-----------|
+| 01 | [Рынок общепита Москвы](01-moscow-cafes) | Куда открыть кофейню | Рекомендация по округу, формату и цене чашки |
+| 02 | [TED Talks](02-ted-talks) | История конференций | [Дашборд Tableau](https://public.tableau.com/views/TEDTalksTableauproject/sheet22?:language=en-US&:display_count=n&:origin=viz_share_link) |
+| 03 | [NPS телекома](03-nps-telecom) | Лояльность клиентов | SQL-витрина + [дашборд NPS](https://public.tableau.com/views/2__17279900065660/sheet17?:language=en-US&:display_count=n&:origin=viz_share_link) |
+| 04 | [Procrastinate Pro+](04-procrastinate) | Реклама не окупается | Разбор LTV / CAC / ROI по странам и каналам |
+| 05 | [GoFast](05-gofast-scooters) | Самокаты и подписки | Проверка гипотез, оценка акций |
+| 06 | [A/B-тест магазина](06-ab-test) | Рост выручки | ICE/RICE + решение по тесту |
+| 07 | [Отток фитнес-клуба](07-gym-churn) | Кто уйдёт в следующем месяце | Логрег vs случайный лес, 5 кластеров |
+| 08 | [Стримчик](08-games-streamchik) | Игры на 2017 год | Портреты NA / EU / JP, жанры и платформы |
+| 09 | [E-commerce](09-ecommerce) | Профили покупателей | RFM-сегменты для рассылок |
+
+Каждая папка: тетрадка, `data/`, короткий README с выводами.
 
 ## Как запустить
 
 ```bash
 python -m venv .venv
-# Windows:
 .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook
 ```
 
-Откройте тетрадку в папке проекта. CSV лежат в `data/` рядом с `.ipynb`.
+Откройте `.ipynb` в папке проекта. CSV лежат в `data/` рядом с тетрадкой.
 
-Исходники курса **не изменялись**. Что именно сделано в копиях — в [`CHANGES.md`](CHANGES.md).
+Что изменено относительно исходников Практикума — в [CHANGES.md](CHANGES.md).
